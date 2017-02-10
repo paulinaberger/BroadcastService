@@ -20,15 +20,19 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnTrigLocalBroadcast"
-        android:text="@string/btn_trigger_localbroadcast_txt"
-        android:layout_alignParentBottom="true" />
+        android:id="@+id/btnTrigBroadcast"
+        android:text="@string/btn_trigger_broadcast_txt"
+        android:layout_above="@+id/btnTrigLocalBroadcast"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnTrigBroadcast"
-        android:text="@string/btn_trigger_broadcast_txt"
-        android:layout_above="@id/btnTrigLocalBroadcast" />
+        android:id="@+id/btnTrigLocalBroadcast"
+        android:text="@string/btn_trigger_localbroadcast_txt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
